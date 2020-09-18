@@ -7,10 +7,10 @@ namespace OlaUsuario
         static void Main(string[] args)
         {
             Console.Write("Digite o seu nome: ");
-            string Allan = Console.ReadLine();
+            string NomeUsuario = Console.ReadLine();
             Console.Write("Olá, ");
-            Console.Write("Allan");
-            Console.Write("!");
+            Console.Write(NomeUsuario);
+            Console.WriteLine("!");
         }
     }
 }
